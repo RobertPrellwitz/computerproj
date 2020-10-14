@@ -1,16 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace Computer
 {
     public class RAM
     {
         //Member Variables
-        public double totalGigabytes;
-        public string brand;
+        public double TotalGigabytes;
+        public string Brand;
 
         public RAM(double totalGigabytes, string brand)
         {
-            totalGigabytes = totalGigabytes;
-            brand = brand;
+            TotalGigabytes = totalGigabytes;
+            Brand = brand;
 
         }
     }
